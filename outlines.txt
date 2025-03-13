@@ -1,0 +1,60 @@
+1. basic building blocks [programming lanugaes]
+    - output
+        - console output
+    - variables
+
+    - data types
+        - strongly-typed => Java, C#, C++
+            String name = "Jen";
+            Number age = 23;
+
+            .....
+            age = "twenty three"; // syntax error
+
+        - loosely-typed => JavaScript, Python, PHP
+        let age = 23; // number 
+        typeof age; // number 
+        .....
+        age = "twenty three"; // string 
+        typeof age; // string 
+        ....
+        age = false; // boolean  
+         typeof age; // boolean 
+
+
+
+
+        - string, number, boolean, object, arrays
+
+    - operators
+                - arithemtic operators => +, -, *, / , %
+                - arithemetic assignment opters => +=, -=, *=, /= , %=
+                - increment / decrement optrs = ++, --
+                - relational optrs => >, <, >=, <=, ==, ===, !=
+                - logical optrs => &&, ||, !
+    - functions
+                - reusable block of code
+                - declaration
+                - call 
+
+        - control structures 
+                - sequences
+                - selections / conditionals
+                        - if / switch
+                - loopings
+                        - for အကြိမ်အရေအတွက်သိရင်သုံး
+                        အကြိမ်အရေအတွက်မသိရင် သုံး
+                         / while 
+                         / do...while 
+                        - loop control variable [initaialize, test, alter]
+                        -break, continue;
+    - array
+    - objects
+
+        - 
+2. Asynchronous JS
+3. DOM
+
+{} => object, code block,
+[] => array 
+() => function
