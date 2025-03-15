@@ -6,3 +6,4 @@ function checkDiscount(age, isMember){
 checkDiscount(60,true)
 checkDiscount(30,true)
 checkDiscount(20,false)
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditionals Assignments</title>
+    <style>
+      /* Solid border */
+      hr.solid {
+        border-top: 3px solid #c4bfbf;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Conditionals Assignments</h1>
+    <h2>1.Eligibility_for_a_Discount</h2>
+    <label for="age">Enter Age:</label>
+    <input type="number" id="age" placeholder="Enter your age" />
+    <br />
+    <label for="member">Are you a member?</label>
+    <input type="checkbox" id="member" />
+    <br />
+    <button onclick="getDiscount()">Check Discount</button>
+    <div id="result1"></div>
+
+    <hr class="solid" />
+
+    <h2>2. Loan Eligibility Checker</h2>
+    <label for="score" >Enter Score: </label>
+    <input type="number" id="score"/>
+    <br />
+    <label for="income" >Enter Annual Income: </label>
+    <input type="number" id="income"/>
+    <br />
+    <button onclick="getLoan()">Get Loan</button>
+    <div id="result2"></div>
+
+    <hr class="solid" />
+
+    <h2>3. Voting Eligibility</h2>
+    <label for="vote_age">Enter Age: </label>
+    <input type="number" id="vote_age"/>
+    <br />
+    <label for="status">Citizenship status</label>
+    <input type="checkbox" id="status"/>
+    <br />
+    <button form="button" onclick="getVote()">Get Vote</button>
+    <div id="result3"></div>
+  </body>
+  <script src="./js/Eligibility_for_a_Discount.js"></script>
+  <script src="./js/Loan Eligibility Checker.js"></script>
+  <script src="./js/Voting Eligibility.js"></script>
+</html>
