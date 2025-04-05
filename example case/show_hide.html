@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show/Hide Example</title>
+  </head>
+  <body>
+    <button id="btn" onclick="buttonOption()">Click</button>
+    <p id="text">Hello, I'm Khangurai.</p>
+  </body>
+  <script>
+    function buttonOption() {
+      let para = document.getElementById("text");
+      //   para.style.display = para.style.display === "none" ? "block" : "none";
+      if (para.style.display === "none") {
+        para.style.display = "block";
+        document.getElementById("btn").innerText = "Hide Text";
+      } else {
+        para.style.display = "none";
+        document.getElementById("btn").innerText = "Show Text";
+      }
+    }
+  </script>
+</html>

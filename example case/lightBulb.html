@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Bulb</title>
+  </head>
+  <body>
+    <img id="bulb" src="pic_bulboff.gif" width="100" />
+    <button id="btn" onclick="toggleBulb()">Light ON!</button>
+  </body>
+  <script>
+    function toggleBulb() {
+      let bulb = document.getElementById("bulb");
+      if (bulb.src.includes("bulboff")) {
+        bulb.src = "pic_bulbon.gif";
+        document.getElementById("btn").innerHTML = "Light OFF!";
+      } else {
+        bulb.src = "pic_bulboff.gif";
+        document.getElementById("btn").innerHTML = "Light ON!";
+      }
+    }
+  </script>
+</html>
