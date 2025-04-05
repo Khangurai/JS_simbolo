@@ -22,21 +22,21 @@
 // console.log(arr);//[7,6,5,4,3,2,1]
 
 // push => new arrary length
-let numbers=[1,2,3,4,5,6]
-let newLength = numbers.push('red','orange','blue')
+// let numbers=[1,2,3,4,5,6]
+// let newLength = numbers.push('red','orange','blue')
 
-console.log(numbers)
+// console.log(numbers)
+// // console.log(newLength)
+
+// newLength = numbers.unshift('grey','yellow')
+
 // console.log(newLength)
+// console.log(typeof numbers)
 
-newLength = numbers.unshift('grey','yellow')
-
-console.log(newLength)
-console.log(typeof numbers)
-
-let lastElement = numbers.pop();
-let firstElement = numbers.shift();
-console.log(lastElement,firstElement)
-console.log(numbers)
+// let lastElement = numbers.pop();
+// let firstElement = numbers.shift();
+// console.log(lastElement,firstElement)
+// console.log(numbers)
 
 //push & pop -> push backinsert / pop backout
 //unshift & shift   
